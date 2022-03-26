@@ -34,7 +34,7 @@ jvm_maven_import_external(
     artifact = "org.jetbrains.intellij.deps.jflex:jflex:1.7.0-2",
     artifact_sha256 = "8a436449844a9ed4e6d371f3276f571dd116512b089ec84d478ed93ae9aa8d49",
     licenses = ["notice"],  # BSD
-    server_urls = ["https://jetbrains.bintray.com/intellij-third-party-dependencies"],
+    server_urls = ["https://cache-redirector.jetbrains.com/intellij-dependencies"],
     generated_rule_name = "idea_jflex_lib",
 )
 
