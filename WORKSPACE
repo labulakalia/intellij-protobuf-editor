@@ -7,9 +7,9 @@ load("@bazel_tools//tools/build_defs/repo:jvm.bzl", "jvm_maven_import_external")
 http_archive(
     name = "idea_ue_2021_1",
     build_file = "@//build_support/external:BUILD.idea_ue",
-    sha256 = "fdca0791d42d044f29e6aaa32c06ada13c687ed9e95cc59b5b2fb2f83767ca97",
-    strip_prefix = "idea-IU-211.4961.33",
-    url = "https://download-cf.jetbrains.com/idea/ideaIU-211.4961.33.tar.gz",
+    sha256 = "39be57e086f2dcb489d3eb1ba0e8e88db0ab242f4e5e29e0e7985d2caef894aa",
+    strip_prefix = "idea-IU-211.7628.21",
+    url = "https://download.jetbrains.com/idea/ideaIU-2021.1.3.tar.gz",
 )
 
 # Python plugin for IntelliJ UE. Required at compile-time for python-specific features.
